@@ -1,0 +1,305 @@
+body {
+    margin: auto;
+    width: 100%;
+    height: auto;
+    font-family: "Manrope", sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.profile{
+    width: 100%;
+    height: 41.85px;
+    background-color:#62786e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile1{
+    width: 100%;
+    height: 27px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.phone{
+    width: 314px;
+    height: 27px;
+    display: flex;
+    gap: 23px;
+    color: #ffffff;
+}
+
+.phone1{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    gap: 10px
+}
+
+#mg1{
+    width: 18.17px;
+    height: 14.83px;
+
+
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.phone2{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    gap: 10px;
+}
+
+.link{
+    width: 102px;
+    height: 20px;
+    display: flex;
+    gap: 21px;
+    
+
+}
+
+#lm1{
+    color:white;
+
+}
+
+#lm2{
+    color:white
+
+}
+i{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+
+}
+
+nav .nav{
+    width: 90%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+
+}
+
+.logo{
+    width: 90px;
+    height: 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+
+.links{
+    width: 931px;
+    height: 72px;
+}
+ ul.links1{
+    width: 931px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    gap: 1px;
+
+ }
+
+ li#li1{
+    width: 118px;
+ }
+
+ 
+
+ ul.links1.li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 72px;
+
+ }
+
+ li#li2{
+    width: 150px;
+ }
+
+ i#li3{
+    width: 128px;
+ }
+
+ i#li4{
+    width: 129px;
+ }
+
+ img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+
+ }
+
+ nav{
+    width: 3000px;
+    height: 72px;
+    background-color: #333333b2;
+    display: flex;
+    justify-content: center;
+ }
+
+ nav{
+    display: block;
+ }
+
+ 
+
+ .links a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+ }
+
+ .links a:hover {
+    background-color: #ddd;
+    color: black;
+    transform: scale(1.1); /* Kích thước sẽ lớn hơn khi di chuột qua */
+    transition: transform 0.3s ease; /* Hiệu ứng transition để làm mềm mại quá trình thay đổi kích thước */
+}
+
+
+ a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+li {
+    text-align: -webkit-match-parent;
+}
+
+.fa-brands, .fab {
+    font-family: "Font Awesome 6 Brands";
+}
+
+.fa-brands, .fab {
+    font-weight: 400;
+}
+
+header#bg-sl {
+    position: relative;
+    width: 100%;
+    height: 1027px;
+    background: url('/image/bg.png');
+    background-size: cover;
+}
+
+.logo {
+    width: 300px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.logo img {
+    margin-bottom: 15px;
+    width: 200px;
+}
+
+
+
+div {
+    display: block;
+}
+
+.links {
+    width: 931px;
+    height: 72px;
+}
+
+ul.links1 {
+    width: 931px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    gap: 1px;
+}
+
+li#li1 {
+    width: 150px;
+}
+
+ul.links1 li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 72px;
+}
+
+li#li2 {
+    width: 150px;
+}
+
+li#li3 {
+    width: 150px;
+}
+
+li#li4 {
+    width: 150px;
+}
+
+nav {
+    width: 100%;
+    height: 72px;
+    background-color: #333333b2;
+    display: flex;
+    justify-content: center;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.profiles {
+    width: 48px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: flex-start;
+
+}
+
+footer{
+    text-align: center;
+    background-color: #80aca1;
+    height: 50%;
+}
